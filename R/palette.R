@@ -29,3 +29,30 @@ embark_official <- list(
   nebula11 = "#7676FF",
   nebula12 = "#63F2F1"
 )
+
+#' Palette shortcuts to use with `rsthemes`
+#'
+embark_palette <- c(
+  embark_official,
+  list(
+    bg = embark_official$space2,
+    bg_dark = embark_official$space1,
+    bg_light = embark_official$space3,
+    accent_dark = embark_official$space4,
+    accent_light = embark_official$space5,
+    fg = embark_official$astral2,
+    fg_dark = embark_official$astral1,
+    red = embark_official$nebula01,
+    red_dark = embark_official$nebula07,
+    green = embark_official$nebula02,
+    green_dark = embark_official$nebula08,
+    yellow = embark_official$nebula03,
+    yellow_dark = embark_official$nebula09,
+    blue = embark_official$nebula04,
+    blue_dark = embark_official$nebula10,
+    purple = embark_official$nebula05,
+    purple_dark = embark_official$nebula11,
+    cyan = embark_official$nebula06,
+    cyan_dark = embark_official$nebula12
+  )
+)
