@@ -1,5 +1,10 @@
 # An RStudio theme for the *ambitious*
 
+![embark.rstheme_notebook_console](images/screenshot_notebook_console.png)
+![embark.rstheme_script_terminal](images/screenshot_script_terminal.png)
+![embark.rstheme_dialog](images/screenshot_dialog.png)
+![embark.rstheme_command_palette](images/screenshot_command_palette.png)
+
 # What’s Embark?
 
 First of all, a big thank you to the creators of the [Embark
@@ -32,8 +37,9 @@ themes.
 I am indebted to the many contributors to this curated arsenal of
 harmonious colors that make staring at R code a much more pleasant
 experience. My goal is to submit this theme to be merged into the
-`rsthemes` package, but in the meantime, if you want to try it out you
-can install this R package from GitHub with:
+`rsthemes` package once I get most of the kinks worked out, but in the
+meantime, if you want to try it out you can install this R package from
+GitHub with:
 
 ``` r
 if (!require(rsthemes)) remotes::install_github("gadenbuie/rsthemes")
