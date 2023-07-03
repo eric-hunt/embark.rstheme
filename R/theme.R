@@ -52,7 +52,7 @@ embark_rstheme <- function(install = TRUE) {
     ##----------------------------------------
     ##  Guides                              --
     ##----------------------------------------
-    ui_line_active                      = "$bg_light",
+    ui_line_active                      = "lighten($bg_light, 5%)",
     ui_line_active_selection            = "$ui_selection",
     ui_bracket                          = "transparentize($cyan, 0.5)",
     ui_invisible                        = "$accent_dark",
