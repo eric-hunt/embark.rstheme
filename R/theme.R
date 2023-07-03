@@ -157,8 +157,8 @@ embark_rstheme <- function(install = TRUE) {
       magenta_bright = "$purple",
       white = "darken($fg, 10%)",
       white_bright = "darken($fg, 5%)",
-      black = "darken($bg_dark, 10%)",
-      black_bright = "darken($bg_dark, 5%)"
+      black = "$accent_light",
+      black_bright = "lighten($accent_light, 10%)"
     ),
     #
     ##-----------------------------------------

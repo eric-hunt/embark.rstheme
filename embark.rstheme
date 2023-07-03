@@ -651,11 +651,11 @@ table.rstheme_tabLayoutCenter .gwt-Label,
 }
 
 .xtermColor0 {
-  color: black !important;
+  color: #585273 !important;
 }
 
 .xtermBgColor0 {
-  background-color: black;
+  background-color: #585273;
 }
 
 .xtermColor1 {
@@ -715,11 +715,11 @@ table.rstheme_tabLayoutCenter .gwt-Label,
 }
 
 .xtermColor8 {
-  color: #080711 !important;
+  color: #6f6791 !important;
 }
 
 .xtermBgColor8 {
-  background-color: #080711;
+  background-color: #6f6791;
 }
 
 .xtermColor9 {
