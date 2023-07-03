@@ -1,8 +1,11 @@
 # An RStudio theme for the *ambitious*
 
 ![embark.rstheme_notebook_console](images/screenshot_notebook_console.png)
+
 ![embark.rstheme_script_terminal](images/screenshot_script_terminal.png)
+
 ![embark.rstheme_dialog](images/screenshot_dialog.png)
+
 ![embark.rstheme_command_palette](images/screenshot_command_palette.png)
 
 # What’s Embark?

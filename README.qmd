@@ -4,8 +4,11 @@ format: gfm
 ---
 
 ![embark.rstheme_notebook_console](images/screenshot_notebook_console.png)
+
 ![embark.rstheme_script_terminal](images/screenshot_script_terminal.png)
+
 ![embark.rstheme_dialog](images/screenshot_dialog.png)
+
 ![embark.rstheme_command_palette](images/screenshot_command_palette.png)
 
 # What's Embark?
@@ -18,7 +21,7 @@ First of all, a big thank you to the creators of the [Embark theme](https://emba
 
 I'm inclined to agree. :smirk:
 
-I've personally enjoyed using the Embark theme's ports to _Vim_ and _Alacritty_. Since I use _RStudio_ pretty much every day as well, I wanted to contribute to the theme and share it with others. The only way I knew how to do this was through the use of the theme building utilities provided by @gadenbuie in the `rsthemes` R package. So..
+I've personally enjoyed using the Embark theme's ports to *Vim* and *Alacritty*. Since I use *RStudio* pretty much every day as well, I wanted to contribute to the theme and share it with others. The only way I knew how to do this was through the use of the theme building utilities provided by @gadenbuie in the `rsthemes` R package. So..
 
 # What's `rsthemes`?
 
@@ -43,4 +46,3 @@ Or, you can just download the .rstheme file and import it within RStudio:
 flowchart LR
   A["Global Options/"]-->B["Appearance/"]-->C("Add...")
 ```
-
