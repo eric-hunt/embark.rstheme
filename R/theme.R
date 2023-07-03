@@ -178,12 +178,13 @@ embark_rstheme <- function(install = TRUE) {
       > div:last-child {
       border-color: $ui_rstudio_background !important;
       }",
-    '#rstudio_command_palette_list [id^="rstudio_command_entry_"] > :first-child:not([id]) {
-      background-color: $red;
-      .gwt-Label {
-        color: $bg;
+    '#rstudio_command_palette_list [id^="rstudio_command_entry_"] >
+      :first-child:not([id]) {
+        background-color: $cyan;
+        .gwt-Label {
+          color: $bg;
+        }
       }
-    }
     .ace_comment {
       font-style: italic;
     }'

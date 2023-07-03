@@ -566,7 +566,7 @@ table.rstheme_tabLayoutCenter .gwt-Label,
 }
 
 #rstudio_command_palette_list [id^="rstudio_command_entry_"] > :first-child:not([id]) {
-  background-color: #F48FB1;
+  background-color: #ABF8F7;
 }
 
 #rstudio_command_palette_list [id^="rstudio_command_entry_"] > :first-child:not([id]) .gwt-Label {
