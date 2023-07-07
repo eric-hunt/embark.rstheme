@@ -572,6 +572,14 @@ table.rstheme_tabLayoutCenter .gwt-Label,
   left: -5px;
 }
 
+.gwt-DialogBox.gwt-DialogBox-ModalDialog.GND-IWGDAY table[role="presentation"] .GND-IWGDJIC tbody {
+  color: #585273 !important;
+}
+
+.gwt-DialogBox.gwt-DialogBox-ModalDialog.GND-IWGDAY table[role="tabpanel"] .gwt-Label {
+  color: #63F2F1 !important;
+}
+
 .rstudio-themes-flat .gwt-PopupPanel .popupContent
 #rstudio_command_palette_list [aria-selected="true"], .rstudio-themes-flat .gwt-PopupPanel .popupContent
 #rstudio_command_palette_list [aria-selected="true"] [id^="rstudio_command_entry"], .rstudio-themes-flat .gwt-PopupPanel .popupContent

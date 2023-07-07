@@ -166,10 +166,7 @@ embark_rstheme <- function(install = TRUE) {
     ##-----------------------------------------
     # I used this snippet found in the the `rsthemes` Elm theme code at
     # https://github.com/gadenbuie/rsthemes inst/templates/elm.R
-    # In order:
     # - add light bar, remove tab outline
-    # - dim the file icon when not selected
-    # - put more space between file icon and file name
     '
     .rstudio-themes-flat .gwt-TabLayoutPanelTab-selected {
       .gwt-TabLayoutPanelTabInner .rstheme_tabLayoutCenter {
@@ -182,14 +179,33 @@ embark_rstheme <- function(install = TRUE) {
         }
       }
     }
+    ',
+    # - dim the file icon when not selected
+    '
     .rstudio-themes-flat .gwt-TabLayoutPanelTab:not(.gwt-TabLayoutPanelTab-selected):not(:hover) .rstheme_tabLayoutCenter img {
       opacity: 0.5;
     }
+    ',
+    # - put more space between file icon and file name
+    '
     .rstudio-themes-flat .gwt-TabLayoutPanelTab .rstheme_tabLayoutCenter td:first-child > img {
       position: relative;
       left: -5px;
     }
     ',
+    # - fix light text on light background in Update Packages dialog
+    #   and dark text for some headings and help text in Options dialog
+    '
+    .gwt-DialogBox.gwt-DialogBox-ModalDialog.GND-IWGDAY {
+      & table[role="presentation"] .GND-IWGDJIC tbody {
+        color: $accent_light !important;
+      }
+      & table[role="tabpanel"] .gwt-Label {
+        color: $rmd_heading_foreground !important;
+      }
+    }
+    ',
+    # - command palette tweaks, table color, highlighting of recent command
     '
     .rstudio-themes-flat .gwt-PopupPanel .popupContent
     #rstudio_command_palette_list [aria-selected="true"] {
@@ -209,6 +225,7 @@ embark_rstheme <- function(install = TRUE) {
       }
     }
     ',
+    # - changes to
     '
     [class="ace_keyword"] {
       font-weight: 600;
