@@ -200,7 +200,7 @@ embark_rstheme <- function(install = TRUE) {
       &[aria-label="Update Packages"] table[role="presentation"] tbody {
         color: $accent_light;
       }
-      & table[role="tabpanel"] .gwt-Label {
+      & table[role="presentation"] .gwt-Label {
         color: $rmd_heading_foreground;
       }
     }

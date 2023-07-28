@@ -576,7 +576,7 @@ table.rstheme_tabLayoutCenter .gwt-Label,
   color: #585273;
 }
 
-.gwt-DialogBox table[role="tabpanel"] .gwt-Label {
+.gwt-DialogBox table[role="presentation"] .gwt-Label {
   color: #63F2F1;
 }
 
