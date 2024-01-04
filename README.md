@@ -1,12 +1,31 @@
 # An RStudio theme for the *ambitious*
 
-![embark.rstheme_notebook_console](images/screenshot_notebook_console.png)
 
-![embark.rstheme_script_terminal](images/screenshot_script_terminal.png)
+<figure>
+<img src="./images/screenshot_notebook_console.png"
+alt="embark.rstheme_notebook_console" />
+<figcaption
+aria-hidden="true">embark.rstheme_notebook_console</figcaption>
+</figure>
 
-![embark.rstheme_dialog](images/screenshot_dialog.png)
+<figure>
+<img src="./images/screenshot_script_terminal.png"
+alt="embark.rstheme_script_terminal" />
+<figcaption
+aria-hidden="true">embark.rstheme_script_terminal</figcaption>
+</figure>
 
-![embark.rstheme_command_palette](images/screenshot_command_palette.png)
+<figure>
+<img src="./images/screenshot_dialog.png" alt="embark.rstheme_dialog" />
+<figcaption aria-hidden="true">embark.rstheme_dialog</figcaption>
+</figure>
+
+<figure>
+<img src="./images/screenshot_command_palette.png"
+alt="embark.rstheme_command_palette" />
+<figcaption
+aria-hidden="true">embark.rstheme_command_palette</figcaption>
+</figure>
 
 # What’s Embark?
 
